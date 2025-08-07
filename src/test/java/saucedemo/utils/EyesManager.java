@@ -9,7 +9,7 @@ public class EyesManager {
 
     public EyesManager() {
         eyes = new Eyes();
-        eyes.setApiKey("jzKg2Ck81vWPcWzFwWO6jA097kZnj6n7AkQJgLXLVjM110");  // Ganti dengan API key Applitools kamu
+        eyes.setApiKey("");  // Isi dengan API key Applitools kamu
         eyes.setBatch(new BatchInfo("SauceDemo Visual Test with POM"));
     }
 
