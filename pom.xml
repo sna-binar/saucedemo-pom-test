@@ -31,6 +31,11 @@
             <version>4.13.2</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.applitools</groupId>
+            <artifactId>eyes-selenium-java5</artifactId>
+            <version>5.80.0</version>
+        </dependency>
     </dependencies>
 
 </project>

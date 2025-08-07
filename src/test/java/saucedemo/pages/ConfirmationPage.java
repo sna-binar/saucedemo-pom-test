@@ -19,4 +19,9 @@ public class ConfirmationPage {
     public boolean isBackToProductsVisible() {
         return driver.findElement(backBtn).isDisplayed();
     }
+
+    public void visualCheckThankYouPage(com.applitools.eyes.selenium.Eyes eyes) {
+        eyes.checkWindow("Checkout Confirmation Page");
+    }
 }
+
